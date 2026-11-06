@@ -1,0 +1,5 @@
+# Install the plugin into the active DSH profile.
+# On load it copies the bundled Skill into ~/.dsh/skills/thesis-format-assistant.
+- insert:
+    - id: thesis-format-assistant
+      name: dsh-plugin-thesis-format-assistant

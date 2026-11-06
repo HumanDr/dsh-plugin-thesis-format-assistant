@@ -1,0 +1,41 @@
+{
+  "name": "dsh-plugin-thesis-format-assistant",
+  "version": "1.0.0",
+  "description": "Install the thesis-format-assistant skill and format/check Chinese theses against university requirements.",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "author": "UndefinedMask",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "thesis",
+    "word",
+    "docx",
+    "skill"
+  ],
+  "dsh": {
+    "name": "论文格式助手",
+    "version": "1.0.0",
+    "category": "tools",
+    "bundle": {
+      "patch": "patches/bundle.yaml"
+    }
+  },
+  "files": [
+    "lib",
+    "patches",
+    "README.md",
+    "LICENSE"
+  ],
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
